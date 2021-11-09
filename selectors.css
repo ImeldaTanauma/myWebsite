@@ -1,0 +1,94 @@
+
+h2{
+    color:black;
+}
+
+body {
+    background-color: rgb(236, 193, 200) ;
+}
+/* Box Model*/
+h4{
+  background-color : lightsteelblue;
+  width : 150px;
+  height: 150px;
+  border : 15px solid black;
+  padding: 50px;
+  margin : 50px;  
+}
+
+h1{
+    color: #353335
+}
+h3{
+    color:rgb(34, 49, 43)
+}
+
+li{
+    color:#30670f;
+}
+
+
+input{
+    border: 3px rgb(231, 57, 159) solid;
+}
+
+.hello{
+    background-color: rgb(219, 130, 157);
+}
+#bicis{
+    background-color:rgb(219, 130, 157);
+}
+
+#special{
+    background-color: rgb(219, 130, 157);
+}
+
+div p{
+    font-size: 25px;
+}
+
+input[type="text"]{
+    backgorund-color: rgb(173, 115, 115);
+}
+
+label{
+    text-transform: uppercase;
+}
+
+input[type="checkbox"]: checked{
+    margin-left: 50px;
+}
+
+
+a:visited{
+    color: gray;
+}
+
+
+div:nth-of-type(3)
+p{
+    background-color: pink;
+}
+
+div:nth-of-type(3) p:nth-of-type(2) {
+    border: 5px white solid;
+}
+
+div:nth-of-type(3) em {
+    font-size: 20px;
+    color: white;
+}
+/* CSS Position */
+.sticky {
+    position : sticky;
+    top: 10px;
+    padding: 5px;
+    background-color: rgb(144, 87, 144);
+    border:2px solid rgb(7, 7, 7);
+}
+p.content {
+    height:50px;
+}
+#container > p {
+    background-color: yellow;
+}
